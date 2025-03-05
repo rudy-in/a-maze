@@ -1,6 +1,6 @@
 body {
-    background-color: black;
-    color: white;
+    background-color: #11111b;
+    color: #cdd6f4;
     user-select: none;
     overscroll-behavior: none;
 }
@@ -32,12 +32,12 @@ body {
     text-align: center;
 }
 #maze-grid-parent {
-    background-color: black;
+    background-color: #11111b;
     position: relative;
     width: 100dvw;
 }
 #maze-grid > circle.current-player {
-    fill: green;
+    fill: #a6e3a1;
     transition: none;
 }
 #nav-assist-btn {
@@ -46,7 +46,7 @@ body {
     left: 0;
     padding: 25px;
     cursor: pointer;
-    background-color: white;
+    background-color: #cdd6f4;
     opacity: .25;
     z-index: 11;
     border-radius: 50%;
@@ -72,9 +72,9 @@ body {
     display: none;
 }
 #controls > #other-options > button {
-    background-color: black;
-    border: olive 1px solid;
-    color: white;
+    background-color: #11111b;
+    border: #fab387 1px solid;
+    color: #cdd6f4;
     padding: 5px;
     border-radius: 5px;
     cursor: pointer;
@@ -94,8 +94,8 @@ body {
 #zoom-controls > button {
     margin: 0 5px;
     padding: 5px;
-    background-color: black;
-    color: olive;
+    background-color: #11111b;
+    color: #fab387;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     justify-items: center;
@@ -134,23 +134,23 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: #cdd6f4;
     padding: 10px;
     text-align: center;
     width: max-content;
     font-size: 1.5rem;
 }
 #game-over-parent > button {
-    background-color: black;
-    border: orange 2px solid;
-    color: white;
+    background-color: #11111b;
+    border: #fab387 2px solid;
+    color: #cdd6f4;
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
 }
 #game-over-parent > button:hover {
     background-color: rgba(100, 200, 100, .1);
-    border-color: darkgoldenrod;
+    border-color: #f2cdcd;
 }
 
 #loading {
@@ -200,8 +200,8 @@ body {
     overflow: scroll;
     padding: 10px;
 
-    background-color: black;
-    border: olive 2px solid;
+    background-color: #11111b;
+    border: #fab387 2px solid;
     border-radius: 10px;
     z-index: 10;
 
@@ -218,9 +218,9 @@ body {
 #close-help-btn {
     padding: 10px;
     cursor: pointer;
-    color: white;
-    background-color: black;
-    border: sandybrown 1px solid;
+    color: #cdd6f4;
+    background-color: #11111b;
+    border: #eba0ac 1px solid;
     z-index: 11;
     border-radius: 5px;
 }
@@ -239,7 +239,7 @@ body {
     transform: translate(-50%, -50%);
     display: none;
     background-color: rgba(10, 10, 10, .9);
-    border: olive 2px solid;
+    border: #fab387 2px solid;
     padding: 20px;
     border-radius: 5px;
     min-width: 60dvw;
@@ -263,8 +263,8 @@ body {
     font-size: small;
 }
 #share-url-copy-link {
-    color: white;
-    background-color: black;
+    color: #cdd6f4;
+    background-color: #11111b;
     border-radius: 20px;
     padding: 15px;
     cursor: text;
